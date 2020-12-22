@@ -1,0 +1,50 @@
+body {
+    background-color: gray;
+    margin: 0;
+}
+
+header {
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+div.container {
+    background-color: white;
+    width: 600px;
+}
+
+div.post {
+    background-color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+div.post {
+    float: left;
+}
+
+div.post .post-title{
+    float: left;
+    padding: 10px;
+}
+
+div.post .post-date{
+    float: right;
+    padding: 10px ;
+}
+
+div.post img {
+width: 100%;
+}
+
+div.post .post-copy{
+    text-align: left;
+    padding: 10px ;
+    line-height: 1;
+}
