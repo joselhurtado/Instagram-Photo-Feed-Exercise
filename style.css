@@ -16,7 +16,8 @@ header h1 {
 
 div.container {
     background-color: white;
-    width: 600px;
+    max-width: 600px;
+    min-width: 375px !important;
 }
 
 div.post {
