@@ -1,5 +1,5 @@
 body {
-    background-color: gray;
+    background-color: #eaeaea;
     margin: 0;
 }
 
@@ -37,6 +37,7 @@ div.post .post-title{
 div.post .post-date{
     float: right;
     padding: 10px ;
+    color: grey;
 }
 
 div.post img {
