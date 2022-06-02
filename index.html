@@ -2,68 +2,95 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instagram CSS Exercise</title>
+    <title>Simple Instagram Photo Feed with HTML/CSS</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div>
-        <header class="container-fluid">
-            <h1>BreatheCode Photo Feed</h1>
+        <header class="container-fluid" id="myHeader">
+            <h1>Simple Instagram Photo Feed with HTML/CSS</h1>
         </header>
-        <div class="container">
+
+        <!-- First Post-->
+
+        <div class="container card">
         <div class="post">
             <div class="post-title">
-                <h2>First Photo</h2>
+                <h2>Relativity</h2>
+            </div>
+            <div class="post-date">
+                <span>12/14</span>
+            </div>
+            <div class="Image">
+                <img src="https://ychef.files.bbci.co.uk/976x549/p02vhq1v.jpg" >
+            </div>
+            <div class="post-copy">
+                <p>In one of <strong>Escher’s</strong> most beloved, most copied, and most parodied images, a series of staircases crisscross in a labyrinth-like interior. At first, the staircases seem to occupy a believable illusionistic space, but upon closer inspection viewers realize that they meet each other at impossible angles. In fact, the shape defined by the three main staircases is a famous <em>“impossible shape”</em> called a Penrose triangle.</p>
+            </div>
+        </div>
+        </div>
+
+        <!-- Second Post-->
+
+        <div class="container card">
+        <div class="post">
+            <div class="post-title">
+                <h2>Bond of Union</h2>
             </div>
             <div class="post-date">
                 <span>12/14</span>
             </div>
             <div>
-                <img src="https://i.insider.com/5e1611b1b2e66a27d43ce874?width=1136&format=jpeg" >
+                <img src="https://i.pinimg.com/originals/55/47/55/554755014bdf81cc9c79c9e276449fad.gif" >
             </div>
             <div class="post-copy">
-                <p>Lorem ipsum dolor sit <strong>#amet</strong>, consectetur adipisicing elit. Est odio nesciunt minus consequatur, impedit earum asperiores architecto sapiente reprehenderit cupiditate blanditiis tenetur adipisci ratione culpa error voluptas omnis repellat iste!</p>
+                <p>The two faces, created from one piece of ribbon, ultimately complete each other, the fractured appearance, almost like orange peel, yet the two faces are complete. They are disjointed from a physical body, giving the impression of the connect going far deeper than the physical, and the relationship between the two transcends the environment around them.</p>
             </div>
         </div>
         </div>
 
-        <div class="container">
-        <div class="post">
-            <div class="post-title">
-                <h2>Second Photo</h2>
-            </div>
-            <div class="post-date">
-                <span>12/14</span>
-            </div>
-            <div>
-                <img src="https://www.imore.com/sites/imore.com/files/styles/xlarge/public/field/image/2017/05/facebook-on-iphone-hero.jpg" >
-            </div>
-            <div class="post-copy">
-                <p>Lorem ipsum dolor sit <strong>#amet</strong>, consectetur adipisicing elit. Est odio nesciunt minus consequatur, impedit earum asperiores architecto sapiente reprehenderit cupiditate blanditiis tenetur adipisci ratione culpa error voluptas omnis repellat iste!</p>
-            </div>
-        </div>
-        </div>
+        <!-- Third Post-->
 
-        <div class="container">
+        <div class="container card">
         <div class="post">
             <div class="post-title">
-                <h2>Third Photo</h2>
+                <h2>Reptiles</h2>
             </div>
             <div class="post-date">
                 <span>12/12</span>
             </div>
             <div>
-                <img src="https://tapsmart-wpengine.netdna-ssl.com/wp-content/uploads/2015/11/panorama-header-750x400.jpg" >
+                <img src="https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700213647.jpg" >
             </div>
             <div class="post-copy">
-                <p>Lorem ipsum dolor sit <strong>#amet</strong>, consectetur adipisicing elit. Est odio nesciunt minus consequatur, impedit earum asperiores architecto sapiente reprehenderit cupiditate blanditiis tenetur adipisci ratione culpa error voluptas omnis repellat iste!</p>
+                <p>His art is enjoyed by millions of people all over the world, as can be seen on the many websites regarding his life and work. He is most famous for his so-called impossible constructions, such as Ascending and Descending, Relativity as well as his Transformation Prints, such as <em>Metamorphosis I, II and III,</em> Sky & Water I or Reptiles.</p>
             </div>
         </div>
         </div>
     </div>
 
-    
+    <!-- Fourth Post-->
+
+    <div class="container card">
+        <div class="post">
+            <div class="post-title">
+                <h2>Metamorphosis</h2>
+            </div>
+            <div class="post-date">
+                <span>11/04</span>
+            </div>
+            <div>
+                <img src="https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700213619.jpg" >
+            </div>
+            <div class="post-copy">
+                <p> metamorphosis is a change in appearance. The most famous example is a caterpillar that transforms into a butterfly. In 1937, <em>Escher created his first Metamorphosis</em>. In it, he depicts the transition of the small town of Atrani via geometrically rigid patterns into a freestanding figure. This woodcut is only a “try-out”, compared to how Escher subsequently fleshed out the theme.</p>
+            </div>
+        </div>
+        </div>
+    </div>
+
 </body>
 </html>
